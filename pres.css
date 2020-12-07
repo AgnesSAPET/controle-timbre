@@ -1,0 +1,89 @@
+/* menu */
+a:link{ 
+background-color: black;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+color: white;	
+width: 15%;
+}
+
+a:hover {
+  background-color: grey;
+  display :flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+a:visited{
+color: white;
+}
+/*fin menu*/
+.button{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#h1{
+	display: flex;
+	justify-content: center;
+}
+
+html{
+	background-attachment: fixed;
+	background: #447BCB;
+	background: -moz-linear-gradient(-45deg, #447BCB 0%, #7652EF 30%, #CE40A9 100%);
+	background: -webkit-linear-gradient(-45deg, #447BCB 0%, #7652EF 30%, #CE40A9 100%);
+	background: linear-gradient(135deg, #447BCB 0%, #7652EF 30%, #CE40A9 100%);
+}
+main{
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+}
+
+#ti{
+	height: 200px;
+	width : 400px;
+}
+#fr{
+	height: 200px;
+	width : 400px;
+}
+#ca{
+	height: 200px;
+	width : 400px;
+}
+#al{
+	height: 200px;
+	width : 400px;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+}
+
+#a{
+	background: #7E57FF;
+	background: -moz-linear-gradient(-45deg, #7E57FF 0%, #8465EF 0%, #CE40A9 100%);
+	background: -webkit-linear-gradient(-45deg, #7E57FF 0%, #8465EF 0%, #CE40A9 100%);
+	background: linear-gradient(135deg, #7E57FF 0%, #8465EF 0%, #CE40A9 100%);
+}
+#f{
+	background-color:blue ;
+	color: white;
+}
+
+#i{
+	background: #BFCB00;
+	background: -moz-linear-gradient(-45deg, #BFCB00 0%, #EF6227 50%, #CE40A9 100%);
+	background: -webkit-linear-gradient(-45deg, #BFCB00 0%, #EF6227 50%, #CE40A9 100%);
+	background: linear-gradient(135deg, #BFCB00 0%, #EF6227 50%, #CE40A9 100%);
+	color: white;
+}
+
+#t{
+	background-color: skyblue;
+}

@@ -1,0 +1,76 @@
+/* menu */
+a:link{ 
+background-color: black;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+color: white;	
+width: 15%;
+}
+
+a:hover {
+  background-color: grey;
+  display :flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+a:visited{
+color: white;
+}
+/*fin menu*/
+.button{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#h1{
+	display: flex;
+	justify-content: center;
+}
+
+html{
+	background-attachment: fixed;
+	background-size: cover;
+	background: #447BCB;
+	background: -moz-linear-gradient(-45deg, #447BCB 0%, #7652EF 30%, #CE40A9 100%);
+	background: -webkit-linear-gradient(-45deg, #447BCB 0%, #7652EF 30%, #CE40A9 100%);
+	background: linear-gradient(135deg, #447BCB 0%, #7652EF 30%, #CE40A9 100%);
+}
+	
+#button {
+color: rgb(255, 255, 255); font-size: 16px; line-height: 16px; padding: 6px; border-radius: 16px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(rgb(96, 101, 164) 0%, rgb(92, 116, 203) 32%, rgb(17, 49, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+#button:hover {
+background: #6065A4; }
+#button:active {
+background: #113175; }
+
+
+footer{
+	display: flex;
+	justify-content: center;
+}
+
+#a{
+	background: #7E57FF;
+	background: -moz-linear-gradient(-45deg, #7E57FF 0%, #8465EF 0%, #CE40A9 100%);
+	background: -webkit-linear-gradient(-45deg, #7E57FF 0%, #8465EF 0%, #CE40A9 100%);
+	background: linear-gradient(135deg, #7E57FF 0%, #8465EF 0%, #CE40A9 100%);
+}
+#f{
+	background-color:blue ;
+	color: white;
+}
+
+#i{
+	background: #BFCB00;
+	background: -moz-linear-gradient(-45deg, #BFCB00 0%, #EF6227 50%, #CE40A9 100%);
+	background: -webkit-linear-gradient(-45deg, #BFCB00 0%, #EF6227 50%, #CE40A9 100%);
+	background: linear-gradient(135deg, #BFCB00 0%, #EF6227 50%, #CE40A9 100%);
+	color: white;
+}
+
+#t{
+	background-color: skyblue;
+}

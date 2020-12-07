@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<script type="text/javascript" src="contact.js"></script>
+	<title></title>
+</head>
+<body>
+	<header>
+		<h1 id="h1">La philatelie</h1>
+		<div class="button">
+			<a href="index.html">Accueil</a>
+			<a href="presentation.html">Présentation</a>
+		</div>
+	</header>
+	<main> <!-- contenu majoritaire du body-->
+		<h1>Nous Contacter</h1>
+		<fieldset> <!-- regrouper plusieurs contrôles et étiquettes-->
+			<legend> Formlaire </legend>
+			<form action = "envoyer.html"action="index.html" onsubmit="return valider()" method="get" name="formSaisie"> <!-- zone de text formulaire -->
+				<input type="radio" name="radio" id="radio"> 
+				<label for="radio">Mr</label>
+				<input type="radio" name="radio" id="radio"> 
+				<label for="radio">Mme</label>
+				<input type="radio" name="radio" id="radio"> 
+				<label for="radio">Mlle</label><br>
+				<input type="text" placeholder ="Nom"><br>
+				<input type="text" placeholder ="Prénom"><br>
+				<input type="number" placeholder ="Age"><br>
+				<input type="date"><br>
+				<label for="questions"> Type de Commentaire :</label> <br>
+				<input list="question" id="questions" name="questions"/>
+				<datalist id="question"> <!-- ensemble d'éléments -->
+ 					<option value="Question Urgente">
+ 					<option value="Apprétiation">
+				</datalist><br>
+				Commentaire : <br>
+				<textarea cols = 30 rows = 10></textarea> <br> <!-- édit text plusieurs lignes-->
+				<input type="submit" value="Envoyer !" id="button">
+				<input type="reset" value="Annuler" id="button">
+			</form>
+		</fieldset>
+	</main>
+	<footer>
+		<a href="https://fr-fr.facebook.com/" target="_blank" id="a"><input type="submit" value="FaceBook" id="f"></a> 
+		<a href="https://www.instagram.com/?hl=fr" target="_blank" id="a"><input type="submit" value="Instagram" id="i"></a>
+		<a href="https://twitter.com/?lang=fr" target="_blank" id="a"><input type="submit" value="Twitter" id="t"></a>
+	</footer>
+</body>
+</html>
